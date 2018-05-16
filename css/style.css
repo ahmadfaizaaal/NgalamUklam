@@ -202,14 +202,14 @@ button.small.cancel {
 }
 
 .main-content .main .profile-page .count {
-  padding-top: 35px;
+  padding-top: 28px;
 }
 
 .main-content .main .profile-page .count div {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   text-align: center;
-  padding: 5px;
+  /*padding: 5px;*/
   border-radius: 50%;
   margin-left: 5px;
   background: #3E454C;

@@ -38,11 +38,22 @@
         <div class="profile-pict"><img src="img/pp/<?php echo $member[0]->foto_profil?>"/></div>
         <div class="info"><a style="color: #ffc400;" href="<?php echo base_url();?>profil/lihatprofil/<?php echo $member[0]->username;?>" class="profile"><?php echo $member[0]->username?></a>
           <h2><?php echo $member[0]->nama;?></h2>
-          <p>
+          <br>
+          <!-- <p>
             <?php echo $member[0]->deskripsi;?>
-          </p><!--a href="#"> <span class="fa fa-cog"> </span> Edit Profile</a><br/><br/><a href="#"> <span class="fa fa-sign-out"> </span> Logout</a-->
+          </p> -->
         </div>
-        <button class="add-photo"><span class="fa fa-camera-retro"></span> Tambah Foto</button>
+        <button style="border-radius: 5px;" class="add-photo"><span class="fa fa-camera-retro"></span> Tambah Foto</button>
+      </div>
+      <br>
+      <p style="color: #ffc400;">Trending</p>        
+      <div style="text-align: left;margin: 0px 100px;">
+        <a href="" style="line-height: 5px;"><p><i>#Pantai Molang</i></p></a>
+        <a href="" style="line-height: 5px;"><p><i>#Pantai Goa Cina</i></p></a>
+        <a href="" style="line-height: 5px;"><p><i>#Paralayang</i></p></a>
+        <a href="" style="line-height: 5px;"><p><i>#Universitas Brawijaya</i></p></a>
+        <a href="" style="line-height: 5px;"><p><i>#SardoForLife</i></p></a>
+
       </div>
     </section>
     <section class="main-content col-md-9">

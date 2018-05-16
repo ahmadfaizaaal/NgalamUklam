@@ -1,14 +1,16 @@
-<div class="profile-page row">
-    <div class="col-xs-3 pp"><img src="img/pp/<?php echo $profil[0]->foto_profil?>" alt="">
-        <h3> <a href="<?php echo base_url().'profil/lihatprofil/'.$profil[0]->username;?>"><?php echo $profil[0]->username;?></a></h3>
+<div class="profile-page row" style="background-color: rgb(250,250,250); margin-bottom: 50px;">
+    <!-- <div class="col-xs-3 pp"> -->
+        <!-- <img src="img/pp/<?php echo $profil[0]->foto_profil?>" alt=""> -->
+        <!-- <h3> <a href="<?php echo base_url().'profil/lihatprofil/'.$profil[0]->username;?>"><?php echo $profil[0]->username;?></a></h3> -->
+    <!-- </div> -->
+    <div class="col-xs-8 meta">
+      <!-- <h2><?php echo $profil[0]->nama;?></h2> -->
+      <h3><?php echo $profil[0]->deskripsi;?></h3>
     </div>
-    <div class="col-xs-5 meta">
-      <h2><?php echo $profil[0]->nama;?></h2>
-      <p><?php echo $profil[0]->deskripsi;?></p>
-    </div>
-    <div class="col-xs-4 count">
+    <div class="col-xs-4 count" style="background-color:">
       <div class="foto"><span><?php echo $totalfoto;?></span><small>FOTO</small></div>
       <div class="like"><span><?php echo $totallike;?></span><small>LIKE</small></div>
+
     </div>
     <div class="clearfix"></div>
 </div>
