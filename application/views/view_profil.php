@@ -5,7 +5,7 @@
     <!-- </div> -->
     <div class="col-xs-8 meta">
       <!-- <h2><?php echo $profil[0]->nama;?></h2> -->
-      <h3><?php echo $profil[0]->deskripsi;?></h3>
+      <h1><i><?php echo '"'.$profil[0]->deskripsi.'"';?></i></h1>
     </div>
     <div class="col-xs-4 count" style="background-color:">
       <div class="foto"><span><?php echo $totalfoto;?></span><small>FOTO</small></div>
